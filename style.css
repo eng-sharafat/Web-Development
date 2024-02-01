@@ -1,8 +1,13 @@
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 
 }
 h1{
     font-size: 50px;
+}
+.font{
+    font-size: 25px;
 }
 .block-one{
 
@@ -12,12 +17,18 @@ h1{
     padding-left: 2%;
 }
 .block-one img{
-    width: 100%;
+    width: 90%;
 }
 .top-banner{
     background-image: url(Images/top-banner.png);
     height: 500px;
     background-repeat: no-repeat;
+}
+.block-two{
+    background-image: url(Images/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .button{
     background-image: linear-gradient(45deg, orange,tomato);
@@ -29,6 +40,44 @@ h1{
 
 }
 .block-last{
-    display: flex;
-    flex-direction: column;
+
+    width: 100%;
+    float: left;
+}
+.last-part{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.single-epreience{
+    box-shadow: 10px 10px 40px gray;
+    height: 90%;
+
+    
+}
+.block-last{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#color-add{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#second-add{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(71, 135, 255));
+    border-image-slice: 1;
+}
+footer h2{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    font-size: 15px;
+}
+footer:hover{
+    color: blue;
+    text-align: center;
 }
